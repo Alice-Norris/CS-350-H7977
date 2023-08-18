@@ -1,2 +1,4 @@
 # CS-350-H7977
 Emerging Systems Architecture &amp; Technology
+
+  The project for this course was to create the groundwork for an IoT thermometer, including deciding on a platform for the project from among three manufacturers with a written report. The system needed to respond to inputs, track the environments temperature, compare it to the set temperature, and to indicate whether the heat was on with an LED. These requirements were met using a task scheduler algorithm, which kept track of time, advancing the state of the tasks when their particular time came around. I feel as if I made this system very well. I carefully separated the tasks so that each only achieved their singular goal, to reduce complexity and increase maintainability. I tried to format the code to the Barr Embedded C style guide, but could probably have been stricter on that. The takeaway in this case for me is being able to find documentation for embedded systems and read them. 
